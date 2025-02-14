@@ -2,11 +2,6 @@
 #include "GameIO.h"
 
 
-void printWelcome(void) {
-    printf("Welcome to the CLI Tic-Tac-Toe Game!\n");
-    printf("Game Begins 3..2..1 Go!\n\n");
-}
-
 void printBoard(Mark* board) {
     int i;
     printf("\n");
