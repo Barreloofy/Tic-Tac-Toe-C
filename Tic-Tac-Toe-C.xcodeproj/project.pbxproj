@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292D0F682D06135B0077101E /* GameIO.c in Sources */ = {isa = PBXBuildFile; fileRef = 292D0F672D06135B0077101E /* GameIO.c */; };
+		296340A52D049DC400F00DD2 /* GameData.c in Sources */ = {isa = PBXBuildFile; fileRef = 296340A02D049DC400F00DD2 /* GameData.c */; };
+		296340A62D049DC400F00DD2 /* GameLogic.c in Sources */ = {isa = PBXBuildFile; fileRef = 296340A22D049DC400F00DD2 /* GameLogic.c */; };
+		296340A72D049DC400F00DD2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 296340A32D049DC400F00DD2 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29AC3D2F2CFB821E005D06FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		292D0F662D06135B0077101E /* GameIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameIO.h; sourceTree = "<group>"; };
+		292D0F672D06135B0077101E /* GameIO.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GameIO.c; sourceTree = "<group>"; };
+		292EA1542D5F98B8002AF6DB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2963409F2D049DC400F00DD2 /* GameData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		296340A02D049DC400F00DD2 /* GameData.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GameData.c; sourceTree = "<group>"; };
+		296340A12D049DC400F00DD2 /* GameLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
+		296340A22D049DC400F00DD2 /* GameLogic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GameLogic.c; sourceTree = "<group>"; };
+		296340A32D049DC400F00DD2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		29AC3D312CFB821E005D06FE /* Tic-Tac-Toe-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tic-Tac-Toe-C"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AC3D2E2CFB821E005D06FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296340A42D049DC400F00DD2 /* Tic-Tac-Toe-C */ = {
+			isa = PBXGroup;
+			children = (
+				296340A32D049DC400F00DD2 /* main.c */,
+				292D0F662D06135B0077101E /* GameIO.h */,
+				292D0F672D06135B0077101E /* GameIO.c */,
+				2963409F2D049DC400F00DD2 /* GameData.h */,
+				296340A02D049DC400F00DD2 /* GameData.c */,
+				296340A12D049DC400F00DD2 /* GameLogic.h */,
+				296340A22D049DC400F00DD2 /* GameLogic.c */,
+			);
+			path = "Tic-Tac-Toe-C";
+			sourceTree = "<group>";
+		};
+		29AC3D282CFB821E005D06FE = {
+			isa = PBXGroup;
+			children = (
+				292EA1542D5F98B8002AF6DB /* .gitignore */,
+				296340A42D049DC400F00DD2 /* Tic-Tac-Toe-C */,
+				29AC3D322CFB821E005D06FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29AC3D322CFB821E005D06FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AC3D312CFB821E005D06FE /* Tic-Tac-Toe-C */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29AC3D302CFB821E005D06FE /* Tic-Tac-Toe-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AC3D382CFB821E005D06FE /* Build configuration list for PBXNativeTarget "Tic-Tac-Toe-C" */;
+			buildPhases = (
+				29AC3D2D2CFB821E005D06FE /* Sources */,
+				29AC3D2E2CFB821E005D06FE /* Frameworks */,
+				29AC3D2F2CFB821E005D06FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tic-Tac-Toe-C";
+			packageProductDependencies = (
+			);
+			productName = "Tic-Tac-Toe-C";
+			productReference = 29AC3D312CFB821E005D06FE /* Tic-Tac-Toe-C */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AC3D292CFB821E005D06FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					29AC3D302CFB821E005D06FE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 29AC3D2C2CFB821E005D06FE /* Build configuration list for PBXProject "Tic-Tac-Toe-C" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29AC3D282CFB821E005D06FE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 29AC3D322CFB821E005D06FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AC3D302CFB821E005D06FE /* Tic-Tac-Toe-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AC3D2D2CFB821E005D06FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296340A52D049DC400F00DD2 /* GameData.c in Sources */,
+				292D0F682D06135B0077101E /* GameIO.c in Sources */,
+				296340A62D049DC400F00DD2 /* GameLogic.c in Sources */,
+				296340A72D049DC400F00DD2 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29AC3D362CFB821E005D06FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-pedantic";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29AC3D372CFB821E005D06FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-pedantic";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29AC3D392CFB821E005D06FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				"OTHER_CFLAGS[arch=*]" = "-pedantic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29AC3D3A2CFB821E005D06FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				"OTHER_CFLAGS[arch=*]" = "-pedantic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AC3D2C2CFB821E005D06FE /* Build configuration list for PBXProject "Tic-Tac-Toe-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC3D362CFB821E005D06FE /* Debug */,
+				29AC3D372CFB821E005D06FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AC3D382CFB821E005D06FE /* Build configuration list for PBXNativeTarget "Tic-Tac-Toe-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC3D392CFB821E005D06FE /* Debug */,
+				29AC3D3A2CFB821E005D06FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AC3D292CFB821E005D06FE /* Project object */;
+}
